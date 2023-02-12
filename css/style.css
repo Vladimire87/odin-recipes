@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin-top: 0;
+}
+
+.container {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  background-color: #EB6440;
+  color: white;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bolder;
+  height: 80px;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.block {
+
+  height: 300px;
+}
+
+.gradient {
+
+  /* can be treated like a fallback */
+  background-color: #EB6440;
+  opacity: inherit;
+
+  /* will be "on top", if browser supports it */
+  background-image: linear-gradient(#EB6440, white);
+}
+
+.background-image {
+  background-image: url(../images/odin.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 510px;
+  opacity: 0.4;
+}
+
+.menu {
+  font-size: 24px;
+  padding-top: 15%;
+  display: flex;
+  justify-content: center;
+}
